@@ -1,0 +1,553 @@
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  transition: all ease-in-out 0.5s;
+  z-index: 9997;
+  transition: all 0.5s;
+  padding: 0 15px;
+  background: black;
+  overflow-y: auto;
+}
+
+#header .profile img {
+  margin: 15px auto;
+  display: block;
+  width: 150px;
+  height: 150px;
+ 
+  border-radius: 50%;
+}
+
+#header .profile h1 {
+  font-size: 24px;
+  margin: 15px;
+  padding: 0;
+  font-weight: 600;
+  -moz-text-align-last: center;
+  text-align-last: center;
+  font-family: "Poppins", sans-serif;
+}
+
+#header .profile h1 a,
+#header .profile h1 a:hover {
+  color: #fff;
+  text-decoration: none;
+  
+}
+
+#header .profile .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: black;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-radius: 50%;
+  text-align: center;
+  width: 26px;
+  height: 13px;
+  transition: 0.3s;
+  
+}
+
+#header .profile .social-links a:hover {
+  background: #ff005183;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+.nav-menu * {
+  margin-top: 10px;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.nav-menu ul li {
+  position: relative;
+  white-space: nowrap;
+}
+.nav-menu a  {
+  display: flex;
+  align-items: center;
+  color: #a8a9b4;
+  padding: 12px 15px;
+  margin-bottom: 8px;
+  transition: 0.3s;
+  font-size: 15px;
+
+}
+.nav-menu a:hover {
+  transform: scale(1.07); 
+  color: #ff004f
+}
+nav ul li a::after{
+  content: '';
+ width: 0;
+ height: 3px;
+ background: #ff004f;
+ position:absolute;
+ left:0;
+ bottom: -6px;
+ transition: 0.5s;
+
+}
+nav ul li a:hover::after{
+ width: 100px;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .progress-bar-container:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+/* Styling the h2 tag by giving color,
+letter spacing, font-size etc.*/
+.progress-bar-container h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  letter-spacing: 1px;
+  font-size: 20px;
+  margin-left: 400px;
+}
+
+/* Styling the border and box
+effect of the progress bar*/
+.progress-bar {
+  width: 800px;
+  height: 5px;
+  margin-top: 10px;
+  border: 1px solid #565656;
+  border-radius: 5px;
+  box-shadow: 0 0 10px black;
+  margin-left: 450px;
+}
+
+/* Stylingthe background color of each
+animation and border radius */
+.percentage {
+  display: block;
+  height: 100%;
+  background-color: #ff004f;
+  border-radius: 5px;
+  animation: progress 1500ms ease-in 1;
+  
+  
+}
+
+/* Assigning width of each languages*/
+.c {
+  width: 85%;
+  
+}
+
+.java {
+  width: 70%;
+}
+
+.python {
+  width: 55%;
+}
+
+.html {
+  width: 75%;
+}
+
+.css {
+  width: 65%;
+}
+
+.javascript {
+  width: 55%;
+}
+
+/* Animating the progress bar by
+initially starting from 0*/
+@keyframes progress {
+  from {
+      width: 0;
+  }
+}
+
+
+.section-title{
+  margin-top: 5%;
+    font-size: 22px;
+    margin-left: 352px;
+
+}
+.section-title p{
+  
+  font-size: 18px;
+  font-family: sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.contact {
+  padding-bottom: 130px;
+  
+}
+
+.contact .info {
+  padding: 30px;
+  background: #fff;
+  width: 70%;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  margin-left: 352px;
+}
+
+.contact .info i {
+  font-size: 20px;
+  color: black;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #dff3fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #050d18;
+}
+
+.contact .info p {
+  padding: 0 0 10px 60px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #173b6c;
+}
+
+.contact .info .email p {
+  padding-top: 5px;
+}
+
+.contact .info .social-links {
+  padding-left: 60px;
+}
+
+.contact .info .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  margin-right: 10px;
+}
+
+.contact .info .social-links a:hover {
+  background: #ff004f;
+  color: #fff;
+}
+
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i {
+  background: #ff004f;
+  color: #fff;
+}
+
+
+
+
+.about .content p{
+  margin-left: 352px;
+}
+.about .content h3 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #173b6c;
+  margin-left: 352px;
+}
+.melek {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 120px;
+}
+
+img {
+  width:350px;
+  height: 400px;
+border-radius: 2.5%;
+margin-left: 150px;
+
+}
+
+.image {
+  flex-basis: 40%
+}
+
+.about .melek ul {
+  list-style: none;
+  padding: 0;
+ 
+}
+.about .melek ul li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.about .melek ul strong {
+  margin-right: 10px;
+}
+.about .melek ul i {
+  font-size: 16px;
+  margin-right: 5px;
+  color: #ff004f;
+  line-height: 0;
+}
+ 
+
+
+
+
+
+.hero-container{
+  width: 94%;
+  height: 100hv;
+  position: relative;
+  
+}
+.hero-container video{
+  width: 100%;
+  height: 100%;
+}
+.textbox{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background:#000 ;
+  width: 100%;
+  height: 100%;
+  color:#fff ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  font-weight:900 ;
+  mix-blend-mode: multiply;
+  padding-left: 90px;
+
+}
+#bg-video {
+ 
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+ 
+ 
+ }
+ .services .icon-box {
+  margin-bottom: 20px;
+  margin-left: 352px;
+}
+
+.services .icon {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  background: white;
+  border-radius: 50%;
+  transition: 0.5s;
+  border: 1px solid black;
+}
+
+.services .icon i {
+  color: black;
+  font-size: 24px;
+  line-height: 0;
+}
+
+.services .icon-box:hover .icon {
+  background: black;
+}
+
+.services .icon-box:hover .icon i {
+  color: #ff004f;
+}
+
+.services .title {
+  margin-left: 80px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.services .title a {
+  color: black;
+}
+
+.services .title a:hover {
+  color: #ff004f;
+}
+
+.services .description {
+  margin-left: 80px;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+
+form {
+  height: 300px;
+  width: 450px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+ 
+}
+
+label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+}
+
+input[type="text"], input[type="email"], textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+
+
+
+.form-container {
+  display: flex;
+  transform: translateY(-480px);
+  margin-left: 900px;
+
+ 
+   
+
+  }
+  .button {
+    border-radius: 4px;
+    background-color: #ff004f;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+  padding: 15px;
+  color: #f4f6fd;
+  font-size: 14px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  z-index: 9999;
+  background: black;
+}
+
+#footer .copyright {
+  text-align: center;
+}
+
+#footer .credits {
+  padding-top: 5px;
+  text-align: center;
+  font-size: 13px;
+  color: #eaebf0;
+}
+
+
+html{
+  scroll-behavior: smooth;
+}
+#msg{
+  display: block;
+  color: green;
+  transform: translateY(350px);
+}
+
+
+
